@@ -1,0 +1,7 @@
+target 'TableView' do
+
+pod 'Masonry'
+pod 'MJExtension'
+pod 'SDWebImage'
+
+end

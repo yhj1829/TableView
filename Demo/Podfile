@@ -1,0 +1,14 @@
+target 'Demo' do
+
+
+ pod 'MJExtension'
+ pod 'Toast'
+ pod 'MJRefresh'
+ pod 'SVProgressHUD'
+ pod 'Masonry'
+ pod 'AFNetworking'
+ pod 'HYBMasonryAutoCellHeight' 
+ pod 'SDWebImage'
+
+end
+

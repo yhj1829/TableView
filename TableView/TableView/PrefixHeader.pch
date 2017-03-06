@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  TableView
+//
+//  Created by yhj on 2017/3/3.
+//  Copyright © 2017年 cdnunion. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// 屏幕
+#define APPW [UIScreen mainScreen].bounds.size.width
+#define APPH [UIScreen mainScreen].bounds.size.height
+
+#define kmargin  10
+
+#import "UIView+Extention.h"
+#import <Masonry.h>
+#import <MJExtension.h>
+#import <UIImageView+WebCache.h>
+#import "NSObject+JGProperty.h"
+
+
+#define RGBColor(r,g,b)    [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+// View 圆角和加边框
+#define ViewBorderRadius(View, Radius, Width, Color)\
+\
+[View.layer setCornerRadius:(Radius)];\
+[View.layer setMasksToBounds:YES];\
+[View.layer setBorderWidth:(Width)];\
+[View.layer setBorderColor:[Color CGColor]]
+
+
+
+#define ClearColor [UIColor clearColor]
+
+
+#endif /* PrefixHeader_pch */
